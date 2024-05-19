@@ -16,7 +16,7 @@ export const SocketContextProvider = ({ children }) => {
         if (authUser == null) return;
 
         // TODO: add the URL as an environment variable
-        const newSocket = io("https://real-time-chatrooms.onrender.com/", {
+        const newSocket = io(import.meta.env.VITE_SOCKET_URL, {
             query: { userId: authUser._id },
         });
 
