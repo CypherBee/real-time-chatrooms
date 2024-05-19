@@ -2,6 +2,7 @@
 This application allows users to create rooms and send messages to each other in real-time. Users can create and join rooms and live chat in their selected room.
 
 ## Live app
+https://real-time-chatrooms.onrender.com/login
 
 ## Tech stack
 -   Mongo, Express, React, Socket.io.
