@@ -15,7 +15,8 @@ export const SocketContextProvider = ({ children }) => {
     useEffect(() => {
         if (authUser == null) return;
 
-        const newSocket = io("http://localhost:5000", {
+        // TODO: add the URL as an environment variable
+        const newSocket = io("https://real-time-chatrooms.onrender.com/", {
             query: { userId: authUser._id },
         });
 
