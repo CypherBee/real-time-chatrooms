@@ -17,7 +17,12 @@ https://real-time-chatrooms.onrender.com/login
 ## Getting Started
 
 ### Env file Setup
-You can create a free Mongodb account
+FrontEnd Env File located in /frontEnd:
+``` 
+VITE_SOCKET_URL=http://localhost:5000
+```
+
+Backend Env file located in /:
 
 ``` 
 PORT= // 5000
